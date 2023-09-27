@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    background-color: #051659;
+    /* background-color: aqua; */
+}
+.loginrow{
+    background-color: #1A1C43;
+}
+#signup_but{
+    color: antiquewhite;
+    font-size: 18px;
+}
+.btn{
+    width: 100px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+ 
+.text-center{
+    font-weight: 600;
+    font-size: 7rem;
+    color: white;
+}
+.form-label{
+    font-size: 1.8rem;
+    color:grey ;
+    font-weight: 500;
+}
+.anchor{
+    color: white;
+    font-size: 1.2rem;
+
+}
+.anchor a{
+    font-size: 1.2rem;
+   
+    text-decoration: none;
+}
+/* 
+.logout{
+    display: flex;
+    justify-content: flex-end;
+     
+
+} */
+ .login{
+    font-size: 4rem;
+    /* background-color: rgb(5, 11, 9); */
+ }

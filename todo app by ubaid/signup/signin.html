@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+     <div class="container   my-5  ">
+      <div class="row w-100 h-100">
+    <div class="col"> <img class="h-100 w-100" src="https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg" class="img-fluid" alt="..."></div>
+      <div class="col  w-100 h-100">
+      
+      
+
+          <h1 class="text-center">SIGN UP</h1>
+          <form >
+            <div class="mb-3">
+              <label for="name"  class="form-label">Username</label>
+              <input type="username" class="form-control"   placeholder="Enter Your Name" id="username"><span class="formerror"><b></b></span>
+            </div>
+    <div class="mb-3">
+      <label for="email" class="form-label mt-3">Email address</label>
+      <input type="email" class="form-control" id="email"  placeholder="Enter Your Email Address" aria-describedby="emailHelp"><span class="formerror"><b></b></span>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+  
+     <div class="mb-3">
+      <label for="pass"  class="form-label">Password</label>
+      <input type="password" class="form-control"   placeholder="Enter Your Password" id="pass"><span class="formerror"><b></b></span>
+    </div>
+
+    
+    <div class="mb-3">
+      <label for="cpass"  class="form-label"> Conform Password</label>
+      <input type="password" class="form-control"   placeholder="Enter Your Password" id="cpass"><span class="formerror"><b></b></span>
+    </div>
+  
+    <button type="button" id="btn"  class="btn btn-primary mt-3 " onclick="signup()" >Sign up</button>
+
+    <div class="my-3 anchor">
+      Already have an account Click here to   <a href="/index.html">LogIn</a>    
+   </div>
+  </form>
+      </div>
+  </div>
+ 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+<script src="/signup/sign.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
